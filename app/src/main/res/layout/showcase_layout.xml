@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="3">
+        <Button
+            android:text="Prev"
+            android:layout_row="0"
+            android:layout_column="0"/>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/test"
+                android:id="@+id/textImage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You need this, buy it!"
+                android:layout_below="@id/textImage"/>
+
+        </RelativeLayout>
+        <Button
+            android:text="Next"
+            android:layout_row="0"
+            android:layout_column="2"/>
+        
+
+    </GridLayout>
+
+</RelativeLayout>
