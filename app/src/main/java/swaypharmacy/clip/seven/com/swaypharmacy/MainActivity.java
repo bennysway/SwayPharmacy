@@ -17,7 +17,16 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        ImageView searchButton = findViewById(R.id.mainButtons).findViewById(R.id.search_icon);
+        View include = findViewById(R.id.mainButtons);
+        ImageView searchButton = include.findViewById(R.id.search_icon);
+        ImageView diagnoseButton = include.findViewById(R.id.diagnose_icon);
+        ImageView helpButton = include.findViewById(R.id.emergency_icon);
+        ImageView itemsButton = include.findViewById(R.id.cart_icon);
+        ImageView accountButton = include.findViewById(R.id.account_icon);
+        ImageView writeButton = include.findViewById(R.id.rate_icon);
+
+
+
 
 
 

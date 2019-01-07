@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#8ca4ede0</color>
     <color name="colorAccent">#69ffff</color>
     <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
     <color name="big_button_background_color">#003479</color>
     <color name="big_button_border_color">#8ca4ede0</color>
     <color name="big_button_text_color">#ffffff</color>

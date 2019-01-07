@@ -4,32 +4,14 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="#60000000">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Drug Name:"
-        android:textColor="#99ffffff"
-        android:textSize="25sp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Drug"
         android:id="@+id/drugName"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="40sp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Amount:"
-        android:textColor="@color/white"
-        android:textSize="25sp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="20"
-        android:id="@+id/drugAmount"
-        android:textColor="@color/white"
-        android:textSize="25sp"/>
 
 
 </LinearLayout>
